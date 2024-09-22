@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+     color: black;
+  }
+  
+  /* backdrop-filter: blur( 2px); */
+
+  
+  
+  button {
+    padding: 10px 20px ;
+    border-radius: 3px;
+    background-color: #2C3E50;
+    border: 1px solid #2C3E50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+ 
+   
+  button:hover{
+    background-color: transparent;
+    border: #2C3E50 1px solid;
+    color: white;
+  }
+  
+  
+  header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .navigation {
+    height: 80px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+    cursor: pointer;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  /* leptop nav */
+  
+  .leptop-nav ul {
+    display: flex;
+  }
+  
+  .leptop-nav li {
+    list-style: none;
+    padding: 8px 9px;
+  }
+  
+  
+  .leptop-nav li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .leptop-nav li:hover {
+    background-color: #2C3E50;
+    color: white !important;
+    border-radius: 3px;
+  }
+
+  .leptop-nav li:hover a {
+    color: white !important;
+  }
+
+
+  
+  
+  /* movile nav */
+  
+  .mobile-nav{
+    display: none ;
+  }
+  
+  
+  
+  
+  /* button nav  */
+  
+  .button .button-one button {
+    padding: 10px 22px;
+  }
+  
+  .button .button-one button a {
+    font-size: 1rem;
+  }
+  
+  .button .button-one button:hover a {
+    color: white;
+  }
+  
+  .button-hide {
+    display: none;
+  }
+
+  
+  /* hero section */
+
+  .hero {
+    height: calc(100vh - 80px);
+    margin-bottom: 180px;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+
+  .hero-one {
+    height: auto;
+    width: 100%;
+    padding: 30px 10% 50px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .hero-one-hedling {
+    height: auto;
+    width: 50%;
+  }
+
+  .hero-one-hedling h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-one-pregrap {
+    height: auto;
+    width: 50%;
+    padding-left: 5%;
+    font-size: 1.1rem;
+  }
+
+
+  .hero-two {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding: 0px 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 30px; /* Space between boxes */
+  }
+
+
+  .heor-teo-box-one {
+    border-radius: 10px ;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  .heor-teo-box-one h2 {
+    font-size: 1.8rem;
+  }
+
+  .heor-teo-box-one p, h2 {
+    padding: 0px 15px;
+  }
+
+  .heor-teo-box-one p {
+    padding-bottom: 15px;
+  }
+
+  .heor-teo-box-one img {
+    width: 100%;
+    height:auto;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+
+  
+
+  /* section one */
+
+  .section-one{
+    padding: 0px 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .section-one-box {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+
+  .section-one-box h2 {
+    font-size: 1.6rem;
+  }
+
+  .section-one-box span{
+    font-weight: bold;
+    font-size: 1rem;
+  } 
+
+  .section-one-box p{
+    font-size: 0.9rem;
+    padding-top: 5px;
+  }  
+
+
+
+
+  /* section two and why choose sectionn */
+
+
+  .choose-secion {
+    height: auto;
+    width: 100%;
+    padding: 80px 10%;
+    /* background-color: #2C3E50; */
+  }
+
+  .choose-seciton-one {
+    height: auto;
+    width: 100%;
+    display: flex;
+
+  }
+
+  .choose-section-one-pregrape {
+    width: 20%;
+    height: auto;
+    font-size: 1.8rem;
+  }
+
+  .choose-section-one-hedling {
+    width: 80%;
+    height: 100%;
+    padding-left: 5%;
+    font-size: 1.2rem;
+  }
+
+
+  /* two */
+
+  .choose-seciton-two {
+    height: auto;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .aline {
+    height: auto;
+    width: 40%;
+    border-bottom: 1px solid black;
+  }
+
+  .aline-pregrape {
+    width: 60%;
+    height: auto;
+    padding-left: 5%;
+  }
+
+  /* section there box */
+
+  .choose-seciton-there{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two equal columns */
+    gap: 30px; /* Space between boxes */
+  }
+
+  .section-two-box {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .section-two-box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fa-solid, .fa-regular{
+    font-size: 2rem;
+  }
+
+  .fa-right-long {
+    color: white;
+    text-align: center !important;
+    padding-left: 5px;
+    font-size: 1rem;
+  }
+
+  .section-two-box-button {
+    padding-top: 20px;
+    font-size: 0.9rem;
+  }
+ 
+
+
+
+  /* section there */
+
+  .section-there {
+    height: auto;
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+  }
+
+  .section-there-one {
+    width: 52%;
+    height: auto;
+    padding-right: 7%;
+  }
+
+  .section-there-one h1 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+
+  .section-there-one p {
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+  }
+
+  .section-there-two {
+    height: 350px;
+    width: 48%;
+    background-image: url(image/young-businessman-with-clipboard-min.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  
+/* 
+  section for */
+
+
+  .section-for {
+    height: auto;
+    width: 100%;
+    padding: 80px 10%;
+
+  }
