@@ -29,7 +29,7 @@
   button:hover{
     background-color: transparent;
     border: #2C3E50 1px solid;
-    color: white;
+    color: #2C3E50;
   }
   
   
@@ -226,7 +226,7 @@
   .choose-secion {
     height: auto;
     width: 100%;
-    padding: 80px 10%;
+    padding: 100px 10%;
     /* background-color: #2C3E50; */
   }
 
@@ -358,6 +358,259 @@
   .section-for {
     height: auto;
     width: 100%;
-    padding: 80px 10%;
+    padding: 100px 10%;
+  }
+
+  .section-for-hedling {
+    height: auto;
+    width: 100%;
+  }
+
+  .section-for-heling-one {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
 
   }
+
+  .section-for-heling-one p {
+    font-size: 1.7rem;
+  }
+
+  .section-for-heling-one h1 {
+    font-size: 2.2rem;
+    padding-left: 5%;
+  }
+
+  .section-for-heling-two {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .section-for-heling-two-p {
+    width: 50%;
+    height: auto;
+    padding-right: 5%;
+
+  }
+
+
+  .section-for-heling-two-h {
+    width: 50%;
+    height: auto;
+
+    gap: 30px
+    ;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .section-for-heling-two-h p span {
+    font-size: 2rem;
+  }
+
+
+
+  .seciton-for-maine {
+    height: auto;
+    width: 100%;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .section-for-maien-one .icone{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-for-maien-one .prerap h3 {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+
+  }
+
+  .section-for-maien-one .prerap p {
+    font-size: 0.9rem;
+    padding-right: 4%;
+  }
+
+
+  /* reviwe sectionn */
+
+  .reviwe-section {
+    height: auto;
+    width: 100%;
+    padding: 0px 10%;
+  }
+
+  .reviwe-one {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviwe-one h3 {
+    font-size: 1.5rem;
+  }
+
+  
+
+  .reviwe-two p  {
+    font-size: 1.8rem;
+    padding-left: 5%;
+    padding-top: 20px;
+  }
+
+
+  .reviwe-there {
+    padding-left: 5%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviwe-there p {
+    font-size: 1.2rem;
+  }
+
+  
+  .reviwe-there i {
+    padding-right: 10px;
+  }
+
+
+
+
+  /* last-section */
+
+
+  .last-sectin {
+    height:auto;
+    width: 100%;
+    padding: 100px 10%;
+  }
+
+  .last-one {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .last-one p {
+    font-size: 1.6rem;
+  }
+
+  .last-one h1 {
+    font-size: 2.2rem;
+  }
+
+  .last-two {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .last-two-one {
+    width: 35%;
+    height:auto;
+  }
+
+  .last-two-two {
+    width: 30%;
+    height:auto;
+    border-top: 1px solid #2C3E50;
+  }
+
+  .last-two-there {
+    width: 35%;
+    height:auto;
+    text-align: end;
+  }
+
+
+
+
+  /* footer sectionn */
+
+
+
+
+footer {
+  height: auto;
+  width: 100%;
+  padding: 80px 10% 40px 10%;
+  justify-content: center;
+  border-radius: 0px 0px 0px 0px;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  padding-top: 8px;
+}
+
+.footer-one {
+  width: 32%;
+  height: 100%;
+  padding-right: 10%;
+}
+
+.footer-one h3 {
+  padding-bottom: 20px;
+}
+
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer ul li a{
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+
+
+.footer-two{
+  width: 25%;
+  height: 100%;
+}
+
+.footer-there {
+  width: 25%;
+  height: 100%;
+  
+}
+
+.footer-for {
+  width: 23%;
+  height: 100%;
+}
+
+.footer-for  i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  padding-bottom: 5px;
+}
+
+
+.subfooter {
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
+}
